@@ -1,0 +1,11 @@
+.place__image {
+    order: 3;
+    width: 100%;
+}
+
+@media screen and (max-width: 320px) {
+    .place__image {
+        width: calc(100% + 16px * 2);
+        margin: 0 -16px 0 -16px;
+    }
+}
